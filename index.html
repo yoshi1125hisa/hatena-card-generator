@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-eqiv="content-language" content="ja">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>hatena card generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link rel="stylesheet" href="/assets/css/global.css">
+</head>
+
+<body>
+  <header>
+<nav>
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo" style="margin: 0 0 0 20px;">Hatena card generator</a>
+  </div>
+</nav>
+  </header>
+  <main>
+    <form>
+      <input id="image-url" type="text" name="image-url" value="" maxlength="255" placeholder="画像のURL">
+      <br><input id="name" type="text" name="name" value="" maxlength="255" placeholder="名前()姓名の間には半角スペース)">
+      <br><input id="twitter-id" type="text" name="twitter-id" value="" maxlength="255" placeholder="TwitterID(@なし)">
+      <br><input id="github-id" type="text" name="github-id" value="" maxlength="255" placeholder="GitHubID(@なし)">
+      <br><input id="description" type="text" name="description" value="" maxlength="255" placeholder="紹介文">
+      <br>
+    </form>
+   <a class="waves-effect waves-light btn" onclick="generate();">Generate!</a>
+    <pre id="output" height="50px">
+
+    </pre>
+  </main>
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 yoshi .
+        </div>
+      </div>
+    </footer>
+  <script src="/src/js/main.js"></script>
+</body>
+
+</html>
