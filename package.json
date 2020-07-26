@@ -24,7 +24,7 @@
     "@babel/preset-env": "7.7.7",
     "@babel/register": "7.7.7",
     "babel-loader": "8.0.6",
-    "browser-sync": "2.26.10",
+    "browser-sync": "2.26.12",
     "cz-customizable": "6.2.1",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "7.0.1",
